@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Postagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Simulador de Postagem</h1>
+            <form id="postForm">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" placeholder="Digite o título do post" required>
+                <label for="conteudo">Conteúdo:</label>
+                <textarea id="conteudo" placeholder="Escreva o conteúdo do post" rows="5" required></textarea>
+                <button type="submit">Postar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Postagem Criada</h2>
+            <h3 id="renderizador-titulo"></h3>
+            <p id="renderizador-conteudo"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
